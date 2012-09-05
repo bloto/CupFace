@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B61120F815F7F97A003EDBA1 /* cup.png in Resources */ = {isa = PBXBuildFile; fileRef = B61120F715F7F97A003EDBA1 /* cup.png */; };
 		B6B27CAB15F7DA9A00780206 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B27CAA15F7DA9A00780206 /* UIKit.framework */; };
 		B6B27CAD15F7DA9A00780206 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B27CAC15F7DA9A00780206 /* Foundation.framework */; };
 		B6B27CAF15F7DA9A00780206 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6B27CAE15F7DA9A00780206 /* CoreGraphics.framework */; };
@@ -15,24 +16,28 @@
 		B6B27CBB15F7DA9A00780206 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B27CBA15F7DA9A00780206 /* AppDelegate.m */; };
 		B6B27CBE15F7DA9A00780206 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B27CBD15F7DA9A00780206 /* ViewController.m */; };
 		B6B27CC115F7DA9A00780206 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6B27CBF15F7DA9A00780206 /* ViewController_iPhone.xib */; };
-		B6B27CC415F7DA9A00780206 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6B27CC215F7DA9A00780206 /* ViewController_iPad.xib */; };
+		B6B27CCC15F7DB8900780206 /* CupFace.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B27CCB15F7DB8900780206 /* CupFace.m */; };
+		B6B27CD415F7DDB700780206 /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B27CD215F7DDB700780206 /* face.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B61120F715F7F97A003EDBA1 /* cup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cup.png; path = CupFace/cup.png; sourceTree = "<group>"; };
 		B6B27CA615F7DA9900780206 /* CupFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6B27CAA15F7DA9A00780206 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B6B27CAC15F7DA9A00780206 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B6B27CAE15F7DA9A00780206 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B6B27CB215F7DA9A00780206 /* CupFace-Info.plist */ = {isa = PBXFileReference; path = "CupFace-Info.plist"; sourceTree = "<group>"; };
+		B6B27CB215F7DA9A00780206 /* CupFace-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CupFace-Info.plist"; sourceTree = "<group>"; };
 		B6B27CB415F7DA9A00780206 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B6B27CB615F7DA9A00780206 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B6B27CB815F7DA9A00780206 /* CupFace-Prefix.pch */ = {isa = PBXFileReference; path = "CupFace-Prefix.pch"; sourceTree = "<group>"; };
-		B6B27CB915F7DA9A00780206 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6B27CB815F7DA9A00780206 /* CupFace-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CupFace-Prefix.pch"; sourceTree = "<group>"; };
+		B6B27CB915F7DA9A00780206 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B6B27CBA15F7DA9A00780206 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B6B27CBC15F7DA9A00780206 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		B6B27CBC15F7DA9A00780206 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B6B27CBD15F7DA9A00780206 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B6B27CC015F7DA9A00780206 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		B6B27CC315F7DA9A00780206 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		B6B27CCA15F7DB8900780206 /* CupFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CupFace.h; sourceTree = "<group>"; };
+		B6B27CCB15F7DB8900780206 /* CupFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CupFace.m; sourceTree = "<group>"; };
+		B6B27CD215F7DDB700780206 /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = face.png; path = CupFace/face.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +57,7 @@
 		B6B27C9B15F7DA9900780206 = {
 			isa = PBXGroup;
 			children = (
+				B6B27CF315F7EAAA00780206 /* Resources */,
 				B6B27CB015F7DA9A00780206 /* CupFace */,
 				B6B27CA915F7DA9A00780206 /* Frameworks */,
 				B6B27CA715F7DA9900780206 /* Products */,
@@ -84,8 +90,9 @@
 				B6B27CBC15F7DA9A00780206 /* ViewController.h */,
 				B6B27CBD15F7DA9A00780206 /* ViewController.m */,
 				B6B27CBF15F7DA9A00780206 /* ViewController_iPhone.xib */,
-				B6B27CC215F7DA9A00780206 /* ViewController_iPad.xib */,
 				B6B27CB115F7DA9A00780206 /* Supporting Files */,
+				B6B27CCA15F7DB8900780206 /* CupFace.h */,
+				B6B27CCB15F7DB8900780206 /* CupFace.m */,
 			);
 			path = CupFace;
 			sourceTree = "<group>";
@@ -99,6 +106,15 @@
 				B6B27CB815F7DA9A00780206 /* CupFace-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6B27CF315F7EAAA00780206 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B61120F715F7F97A003EDBA1 /* cup.png */,
+				B6B27CD215F7DDB700780206 /* face.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +169,8 @@
 			files = (
 				B6B27CB515F7DA9A00780206 /* InfoPlist.strings in Resources */,
 				B6B27CC115F7DA9A00780206 /* ViewController_iPhone.xib in Resources */,
-				B6B27CC415F7DA9A00780206 /* ViewController_iPad.xib in Resources */,
+				B6B27CD415F7DDB700780206 /* face.png in Resources */,
+				B61120F815F7F97A003EDBA1 /* cup.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +184,7 @@
 				B6B27CB715F7DA9A00780206 /* main.m in Sources */,
 				B6B27CBB15F7DA9A00780206 /* AppDelegate.m in Sources */,
 				B6B27CBE15F7DA9A00780206 /* ViewController.m in Sources */,
+				B6B27CCC15F7DB8900780206 /* CupFace.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,14 +205,6 @@
 				B6B27CC015F7DA9A00780206 /* en */,
 			);
 			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		B6B27CC215F7DA9A00780206 /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B6B27CC315F7DA9A00780206 /* en */,
-			);
-			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -254,6 +264,7 @@
 				GCC_PREFIX_HEADER = "CupFace/CupFace-Prefix.pch";
 				INFOPLIST_FILE = "CupFace/CupFace-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -265,6 +276,7 @@
 				GCC_PREFIX_HEADER = "CupFace/CupFace-Prefix.pch";
 				INFOPLIST_FILE = "CupFace/CupFace-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -288,6 +300,7 @@
 				B6B27CC915F7DA9A00780206 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

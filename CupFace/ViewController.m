@@ -2,26 +2,31 @@
 //  ViewController.m
 //  CupFace
 //
-//  Created by TZ on 05/09/2012.
+//  Created by Tomasz Zablocki on 05/09/2012.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
 #import "ViewController.h"
 
-@interface ViewController ()
-
-@end
-
 @implementation ViewController
+@synthesize cupImage;
+@synthesize cameraImage;
+@synthesize resultingImage;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    [cupImage setImage:[UIImage imageNamed:@"cup.png"]];
+    [cameraImage setImage:[UIImage imageNamed:@"face.png"]];   
+    [resultingImage setImage:[CupFace drawImage:[cameraImage image] inImage:[cupImage image]]];
 }
 
 - (void)viewDidUnload
 {
+    [self setCupImage:nil];
+    [self setCameraImage:nil];
+    [self setResultingImage:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }

@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  CupFace
 //
-//  Created by TZ on 05/09/2012.
+//  Created by Tomasz Zablocki on 05/09/2012.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
